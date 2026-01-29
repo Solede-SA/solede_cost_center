@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Cost Center-main-title_field",
+		"doctype": "Property Setter",
+		"doctype_or_field": "DocType",
+		"doc_type": "Cost Center",
+		"property": "title_field",
+		"property_type": "Data",
+		"value": "cost_center_name",
+		"module": "Solede Cost Center"
+	},
+	{
+		"name": "Cost Center-main-show_title_field_in_link",
+		"doctype": "Property Setter",
+		"doctype_or_field": "DocType",
+		"doc_type": "Cost Center",
+		"property": "show_title_field_in_link",
+		"property_type": "Check",
+		"value": "1",
+		"module": "Solede Cost Center"
+	}
+]

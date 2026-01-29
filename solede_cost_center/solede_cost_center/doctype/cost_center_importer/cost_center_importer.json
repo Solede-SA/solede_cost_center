@@ -1,0 +1,95 @@
+{
+	"actions": [],
+	"allow_copy": 1,
+	"creation": "2025-01-29 10:00:00.000000",
+	"description": "Import Cost Center from a CSV or Excel file",
+	"doctype": "DocType",
+	"document_type": "Other",
+	"editable_grid": 1,
+	"engine": "InnoDB",
+	"field_order": [
+		"company",
+		"force_delete_gl_entries",
+		"download_template",
+		"import_file_section",
+		"import_file",
+		"chart_preview",
+		"chart_tree"
+	],
+	"fields": [
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"default": "0",
+			"depends_on": "company",
+			"description": "If checked, all GL Entries with Cost Centers for this company will be deleted before importing",
+			"fieldname": "force_delete_gl_entries",
+			"fieldtype": "Check",
+			"hidden": 1,
+			"label": "Force Delete GL Entries"
+		},
+		{
+			"depends_on": "company",
+			"fieldname": "download_template",
+			"fieldtype": "Button",
+			"label": "Download Template"
+		},
+		{
+			"depends_on": "company",
+			"fieldname": "import_file_section",
+			"fieldtype": "Section Break",
+			"label": "Import File"
+		},
+		{
+			"fieldname": "import_file",
+			"fieldtype": "Attach",
+			"label": "Attach Cost Center file"
+		},
+		{
+			"collapsible": 1,
+			"fieldname": "chart_preview",
+			"fieldtype": "Section Break",
+			"label": "Preview"
+		},
+		{
+			"fieldname": "chart_tree",
+			"fieldtype": "HTML",
+			"label": "Cost Center Tree"
+		}
+	],
+	"hide_toolbar": 1,
+	"in_create": 1,
+	"issingle": 1,
+	"links": [],
+	"modified": "2025-01-29 10:00:00.000000",
+	"modified_by": "Administrator",
+	"module": "Solede Cost Center",
+	"name": "Cost Center Importer",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"read": 1,
+			"role": "Accounts Manager",
+			"share": 1,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"read": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		}
+	],
+	"quick_entry": 1,
+	"read_only": 1,
+	"sort_field": "modified",
+	"sort_order": "DESC"
+}

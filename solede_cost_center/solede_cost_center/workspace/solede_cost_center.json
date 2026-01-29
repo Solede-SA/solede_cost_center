@@ -1,0 +1,50 @@
+{
+	"charts": [],
+	"content": "[{\"id\":\"AXLmOcE0VU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Cost Center Management</b></span>\",\"col\":12}},{\"id\":\"DtYRuN5OT6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cost Center Importer\",\"col\":4}}]",
+	"creation": "2025-01-29 10:00:00.000000",
+	"custom_blocks": [],
+	"docstatus": 0,
+	"doctype": "Workspace",
+	"for_user": "",
+	"hide_custom": 0,
+	"icon": "accounting",
+	"idx": 0,
+	"is_hidden": 0,
+	"label": "Solede Cost Center",
+	"links": [
+		{
+			"hidden": 0,
+			"is_query_report": 0,
+			"label": "Cost Center Importer",
+			"link_count": 0,
+			"link_to": "Cost Center Importer",
+			"link_type": "DocType",
+			"onboard": 1,
+			"type": "Link"
+		}
+	],
+	"modified": "2025-01-29 10:00:00.000000",
+	"modified_by": "Administrator",
+	"module": "Solede Cost Center",
+	"name": "Solede Cost Center",
+	"number_cards": [],
+	"owner": "Administrator",
+	"parent_page": "",
+	"public": 1,
+	"restrict_to_domain": "",
+	"roles": [],
+	"sequence_id": 1,
+	"shortcuts": [
+		{
+			"color": "Blue",
+			"doc_view": "",
+			"format": "",
+			"label": "Cost Center Importer",
+			"link_to": "Cost Center Importer",
+			"restrict_to_domain": "",
+			"stats_filter": "",
+			"type": "DocType"
+		}
+	],
+	"title": "Solede Cost Center"
+}
