@@ -1,0 +1,32 @@
+ID,Cost Center Name,Parent Cost Center,Is Group
+ENG,Societa Ingegneria,,1
+ENG-DIR,Direzione,ENG,1
+ENG-DIR-GEN,Direzione Generale,ENG-DIR,0
+ENG-DIR-AMM,Direzione Amministrativa,ENG-DIR,0
+ENG-DIR-TEC,Direzione Tecnica,ENG-DIR,0
+ENG-PROG,Progettazione,ENG,1
+ENG-PROG-CIV,Progettazione Civile,ENG-PROG,1
+ENG-PROG-CIV-STR,Strutture,ENG-PROG-CIV,0
+ENG-PROG-CIV-GEO,Geotecnica,ENG-PROG-CIV,0
+ENG-PROG-CIV-IDR,Idraulica,ENG-PROG-CIV,0
+ENG-PROG-IMP,Progettazione Impianti,ENG-PROG,1
+ENG-PROG-IMP-ELE,Impianti Elettrici,ENG-PROG-IMP,0
+ENG-PROG-IMP-MEC,Impianti Meccanici,ENG-PROG-IMP,0
+ENG-PROG-IMP-TER,Impianti Termici,ENG-PROG-IMP,0
+ENG-PROG-ARC,Progettazione Architettonica,ENG-PROG,0
+ENG-PROG-BIM,BIM Management,ENG-PROG,0
+ENG-CANT,Direzione Lavori,ENG,1
+ENG-CANT-CSE,Coordinamento Sicurezza,ENG-CANT,0
+ENG-CANT-DL,Direzione Lavori,ENG-CANT,0
+ENG-CANT-COLL,Collaudi,ENG-CANT,0
+ENG-COMM,Commerciale,ENG,1
+ENG-COMM-GAR,Gare e Appalti,ENG-COMM,0
+ENG-COMM-OFF,Offerte,ENG-COMM,0
+ENG-COMM-MKT,Marketing,ENG-COMM,0
+ENG-AMM,Amministrazione,ENG,1
+ENG-AMM-CON,Contabilita,ENG-AMM,0
+ENG-AMM-FIN,Finanza,ENG-AMM,0
+ENG-AMM-HR,Risorse Umane,ENG-AMM,0
+ENG-AMM-ACQ,Acquisti,ENG-AMM,0
+ENG-IT,Sistemi Informativi,ENG,0
+ENG-QUA,Qualita e Sicurezza,ENG,0
